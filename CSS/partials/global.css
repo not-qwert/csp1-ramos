@@ -1,0 +1,66 @@
+
+.title-text{
+    font: normal bold 50px/72 px 'Roboto', cursive;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* button */
+.button {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px 'Roboto', cursive;
+    border: 3px solid transparent;
+    border-radius: 4;
+}
+
+.button.primary-button{
+    background-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    background-clip: padding-box;
+    color: white;
+    transition: background .6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);    
+}
+
+.button.primary-button:hover{
+    background-color: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button:after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    content:'';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background:linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+p.para{
+    color:#777777;
+    font: normal 500 16px/25px 'Roboto', cursive;
+}
+
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn:active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
